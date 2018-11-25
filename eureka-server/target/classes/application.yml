@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: eureka-server
+    
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false

@@ -8,3 +8,14 @@ spring:
 eureka:
   instance:
     hostname: localhost
+    instance-id: UserInfo-Service
+    prefer-ip-address: true  # 访问路径可以显示ip
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+      
+# 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
+info:
+  app.name: UserServiceEurekaClient
+  build.artifactId: $project.artifactId$      
+  build.version: $project.version$

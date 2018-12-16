@@ -1,4 +1,4 @@
-package com.william.eurekaclient;
+package com.william.springcloud;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class EurekaClientTest 
+public class EurekaServerTest 
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class EurekaClientTest
      *
      * @param testName name of the test case
      */
-    public EurekaClientTest( String testName )
+    public EurekaServerTest( String testName )
     {
         super( testName );
     }
@@ -25,7 +25,7 @@ public class EurekaClientTest
      */
     public static Test suite()
     {
-        return new TestSuite( EurekaClientTest.class );
+        return new TestSuite( EurekaServerTest.class );
     }
 
     /**

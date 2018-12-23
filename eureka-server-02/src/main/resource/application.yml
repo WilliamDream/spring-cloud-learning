@@ -1,0 +1,20 @@
+server:
+  servlet:
+    application-display-name: eureak-server
+  port: 7013
+
+spring:
+  application:
+    name: eureka-server
+    
+eureka:
+  instance:
+    hostname: localhost                     #服务注册中心实例的主机名
+  client:
+    register-with-eureka: true             #不向服务注册中心注册eureka-server自己
+    fetch-registry: true                   #是否检索eureka-server服务，只负责维护注册服务实例
+    service-url:                            #注册中心地址
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka/,http://${eureka.instance.hostname}:7002/eureka/,http://${eureka.instance.hostname}:7013/eureka/
+      
+      
+    

@@ -12,13 +12,14 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/userinfo")
 public class UserInfoController {
 
+	private static String USERSERVICE_PREFIX_URL = "http://UserInfo-Service";
 	
 	@Autowired
 	private RestTemplate restTemplate;
 	
 	@GetMapping("/getuser")
 	public ResponseEntity getUserinfo() {
-		ResponseEntity<String> res = restTemplate.getForEntity("http://localhost:8080/user", String.class);
+		ResponseEntity<String> res = restTemplate.getForEntity(USERSERVICE_PREFIX_URL+"/user", String.class);
 		return res;
 	}
 	

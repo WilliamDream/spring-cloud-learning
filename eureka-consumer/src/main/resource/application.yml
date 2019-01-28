@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8021
 
 spring:
   application:
@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true  # 访问路径可以显示ip
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7013.com:7013/eureka/
       
 # 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
 info:

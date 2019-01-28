@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8010
 
 spring:
   application:
@@ -7,15 +7,18 @@ spring:
     
 eureka:
   instance:
-    hostname: localhost
     instance-id: UserInfo-Service   #服务名#
     prefer-ip-address: true  # 访问路径可以显示ip
   client:
+    healthcheck:
+      enabled: true
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:7001/eureka/,http://${eureka.instance.hostname}:7002/eureka/,http://${eureka.instance.hostname}:7013/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7013.com:7013/eureka/
       
 # 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
 info:
   app.name: UserServiceEurekaClient
   build.artifactId: $project.artifactId$      
   build.version: $project.version$
+  
+  

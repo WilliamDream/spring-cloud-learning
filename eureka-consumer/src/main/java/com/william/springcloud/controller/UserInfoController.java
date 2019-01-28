@@ -13,14 +13,14 @@ import com.william.springcloud.entity.UserInfo;
 @RequestMapping("/userinfo")
 public class UserInfoController {
 
-	private static String USERSERVICE_PREFIX_URL = "http://USERINFO-SERVICE";
+	private static String USERSERVICE_PREFIX_URL = "http://UserInfo-Service";
 	
 	@Autowired
 	private RestTemplate restTemplate;
 	
 	@GetMapping("/getuser")
-	public ResponseEntity getUserinfo() {
-		ResponseEntity<String> res = restTemplate.getForEntity(USERSERVICE_PREFIX_URL+"/user", String.class);
+	public String getUserinfo() {
+		String res = restTemplate.getForObject(USERSERVICE_PREFIX_URL+"/user", String.class);
 		return res;
 	}
 	

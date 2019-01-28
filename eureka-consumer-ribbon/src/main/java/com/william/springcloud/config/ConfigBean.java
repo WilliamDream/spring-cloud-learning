@@ -16,9 +16,9 @@ public class ConfigBean {
 		return new RestTemplate();
 	}
 	
-//	@Bean
-//	public RandomRule randomRule() {
-//		return new RandomRule();
-//	}
+	@Bean
+	public RandomRule randomRule() {
+		return new RandomRule();
+	}
 	
 }

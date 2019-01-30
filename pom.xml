@@ -7,12 +7,12 @@
   <packaging>pom</packaging>
   <modules>
   	<module>eureka-server</module>
-  	<module>eureka-client</module>
-  	<module>eureka-consumer</module>
   	<module>eureka-server-01</module>
   	<module>eureka-server-02</module>
+  	<module>service-provider-01</module>
+  	<module>service-provider-02</module>
+  	<module>eureka-consumer</module>
   	<module>eureka-consumer-ribbon</module>
-    <module>eureka-client-provider</module>
     <module>service-provider-hystrix</module>
   </modules>
   

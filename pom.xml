@@ -11,9 +11,11 @@
   	<module>eureka-server-02</module>
   	<module>service-provider-01</module>
   	<module>service-provider-02</module>
-  	<module>eureka-consumer</module>
-  	<module>eureka-consumer-ribbon</module>
+  	<module>service-consumer</module>
+  	<module>service-consumer-ribbon</module>
+    <module>service-consumer-feign</module>
     <module>service-provider-hystrix</module>
+    <module>common-api</module>
   </modules>
   
   <dependencyManagement>

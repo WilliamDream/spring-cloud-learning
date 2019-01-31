@@ -16,7 +16,6 @@
     <module>service-consumer-feign</module>
     <module>service-provider-hystrix</module>
     <module>common-api</module>
-    <module>service-consumer-hystrix</module>
   </modules>
   
   <dependencyManagement>

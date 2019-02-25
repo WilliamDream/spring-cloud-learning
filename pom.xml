@@ -17,6 +17,7 @@
     <module>service-provider-hystrix</module>
     <module>common-api</module>
     <module>service-consumer-hystrix-dashboard</module>
+    <module>service-zuul-gateway</module>
   </modules>
   
   <dependencyManagement>

@@ -8,18 +8,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.william.springcloud.entity.UserInfo;
 
-
-/**
- * 
- * 一个实现FallbackFactory接口的类
- *
- */
-@FeignClient(value = "UserInfo-Service",fallbackFactory=UserInfoServiceFallbackFactory.class)
-public interface UserInfoService {
+@FeignClient(value = "UserInfo-Service")
+public interface UserService {
 
 	@GetMapping(value = "/user/list")
 	public List<String> list();
 	
 	@PostMapping(value = "/user/add")
-	public boolean add(UserInfo userInfo);
+	public boolean add(UserInfo userInfo); 
+	
 }

@@ -14,8 +14,8 @@ public class UserInfoController {
 	private UserInfoService service;
 	
 	@GetMapping("/getlist")
-	public List<Object> getUsers() {
-		List<Object> list = this.service.list();
+	public List<String> getUsers() {
+		List<String> list = service.list();
 		return list;
 	}
 	

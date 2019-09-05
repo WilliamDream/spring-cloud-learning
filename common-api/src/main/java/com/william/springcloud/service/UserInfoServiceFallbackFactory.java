@@ -1,14 +1,14 @@
 package com.william.springcloud.service;
 
+import com.william.springcloud.entity.UserInfo;
+import feign.hystrix.FallbackFactory;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import com.alibaba.fastjson.JSONException;
-import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.JSONPObject;
-import com.william.springcloud.entity.UserInfo;
-
-import feign.hystrix.FallbackFactory;
+//import com.alibaba.fastjson.JSONException;
+//import com.alibaba.fastjson.JSONObject;
+//import com.alibaba.fastjson.JSONPObject;
 
 /**
  * 在这个类中

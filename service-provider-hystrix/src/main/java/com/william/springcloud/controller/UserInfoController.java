@@ -1,16 +1,15 @@
 package com.william.springcloud.controller;
 
-import java.util.ArrayList;
-import java.util.List;
-
-
+import com.alibaba.fastjson.JSONArray;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import com.william.springcloud.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.william.springcloud.service.UserInfoService;
+import java.util.List;
 
 @RestController
 @RequestMapping("/hystrix")
@@ -26,19 +25,33 @@ public class UserInfoController {
 	 */
 	@GetMapping("/getusers")
 	@HystrixCommand(fallbackMethod="getDataException")
-	public List<String> getUsers() {
+	public String getUsers() {
 		List<String> list = service.list();
-		if(list==null) {
-			throw new RuntimeException("没有获取到数据");
+		list.add("小张");
+		if(list.size()<0) {
+			throw new RuntimeException("服务发生异常");
 		}
-		return list;
+		return JSONArray.toJSONString(list);
 	}
-	
-	@SuppressWarnings("unused")
-	private List<Object> getDataException(){
-		List<Object> list = new ArrayList<Object>();
-		list.add("没有数据");
-		return list;
+
+
+	@GetMapping("/user")
+	@HystrixCommand(fallbackMethod = "getDataException",
+			commandProperties = {
+					@HystrixProperty(name="execution.isolation.strategy", value="SEMAPHORE")
+			}
+	)
+	public String getUserInfo() {
+		List<String> list = service.list();
+		if(list.size()<1) {
+			throw new RuntimeException("服务发生异常");
+		}
+		return "shuju";
+	}
+
+
+	public String getDataException(){
+		return "没有数据";
 	}
 	
 }

@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.william.springcloud</groupId>
-  <artifactId>service-provider-01</artifactId>
+  <artifactId>service-provider-02</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>eureka-client</name>
   <url>http://maven.apache.org</url>

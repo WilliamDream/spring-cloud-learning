@@ -1,15 +1,15 @@
 package com.william.springcloud.controller;
 
-import java.util.List;
-
+import com.william.springcloud.service.UserInfoServiceFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.william.springcloud.service.UserService;
 
 
 @RestController
+@RequestMapping("/feign")
 public class UserInfoController {
 
 	/**
@@ -17,12 +17,11 @@ public class UserInfoController {
 	 * 区别于使用RibbOn+RestTemplate调用服务
 	 */
 	@Autowired
-	private UserService service;
+	private UserInfoServiceFeign service;
 	
-	@GetMapping("/getlist")
-	public List<String> getUsers() {
-		List<String> list = service.list();
-		return list;
+	@GetMapping("/getUserInfo")
+	public String getUserInfo() {
+		return service.getUserInfo();
 	}
 	
 }

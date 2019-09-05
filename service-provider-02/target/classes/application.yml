@@ -13,12 +13,15 @@ eureka:
     healthcheck:
       enabled: true
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7013.com:7013/eureka/
-      
+      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/
+
+project:
+  artifactId: userServiceEurekaClient
+  version: 1.0.0
 # 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
 info:
   app.name: UserServiceEurekaClient
-  build.artifactId: service-provider-01      
+  build.artifactId: service-provider-02
   build.version: 0.0.1-SNAPSHOT
   
   

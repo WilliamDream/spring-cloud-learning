@@ -9,11 +9,11 @@ spring:
     
 eureka:
   instance:
-    hostname: eureka7002.com                     #服务注册中心实例的主机名
+    hostname: eureka7002                   #服务注册中心实例的主机名
   client:
-    register-with-eureka: true             #不向服务注册中心注册eureka-server自己
-    fetch-registry: true                   #是否检索eureka-server服务，只负责维护注册服务实例
+    register-with-eureka: false             #不向服务注册中心注册eureka-server自己
+    fetch-registry: false                   #是否检索eureka-server服务，只负责维护注册服务实例
     service-url:                            #注册中心地址
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7013.com:7013/eureka/
+      defaultZone: http://eureka7001:7001/eureka/
       #defaultZone: http://${eureka.instance.hostname}:7001/eureka/,http://${eureka.instance.hostname}:7002/eureka/,http://${eureka.instance.hostname}:7013/eureka/
     

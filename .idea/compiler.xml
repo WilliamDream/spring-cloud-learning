@@ -8,9 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-api" />
         <module name="eureka-consumer" />
+        <module name="eureka-server" />
+        <module name="eureka-server-01" />
         <module name="eureka-server-01 (1)" />
         <module name="eureka-server-01 (2)" />
         <module name="eureka-server-02" />
+        <module name="eureka-server-03" />
         <module name="service-consumer-feign" />
         <module name="service-consumer-hystrix-dashboard" />
         <module name="service-consumer-ribbon" />
@@ -23,9 +26,10 @@
     <bytecodeTargetLevel target="1.8">
       <module name="common-api" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
-      <module name="eureka-server-01 (1)" target="1.8" />
-      <module name="eureka-server-01 (2)" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-01" target="1.8" />
       <module name="eureka-server-02" target="1.8" />
+      <module name="eureka-server-03" target="1.8" />
       <module name="service-consumer-feign" target="1.8" />
       <module name="service-consumer-hystrix-dashboard" target="1.8" />
       <module name="service-consumer-ribbon" target="1.8" />

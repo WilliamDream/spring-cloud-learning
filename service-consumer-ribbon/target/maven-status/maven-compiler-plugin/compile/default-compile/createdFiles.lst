@@ -1,0 +1,4 @@
+com\william\springcloud\controller\UserInfoController.class
+com\william\springcloud\config\ConfigBean.class
+com\william\springcloud\config\MySelfLoadBalanceRule.class
+com\william\springcloud\EurekaRibbonApp.class

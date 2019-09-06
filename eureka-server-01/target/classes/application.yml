@@ -1,7 +1,7 @@
 server:
   servlet:
-    application-display-name: eureak-server
-  port: 7002
+    application-display-name: eureka-server
+  port: 7001
 
 spring:
   application:
@@ -9,11 +9,11 @@ spring:
     
 eureka:
   instance:
-    hostname: eureka7002                   #服务注册中心实例的主机名
+    hostname: eureka7001                     #服务注册中心实例的主机名
   client:
     register-with-eureka: false             #不向服务注册中心注册eureka-server自己
     fetch-registry: false                   #是否检索eureka-server服务，只负责维护注册服务实例
     service-url:                            #注册中心地址
-      defaultZone: http://eureka7001:7001/eureka/
       #defaultZone: http://${eureka.instance.hostname}:7001/eureka/,http://${eureka.instance.hostname}:7002/eureka/,http://${eureka.instance.hostname}:7013/eureka/
+      defaultZone: http://eureka7002:7002/eureka/
     

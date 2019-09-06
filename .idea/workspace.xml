@@ -2,116 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079e48cc-4b24-4280-9d94-bc9a277fe9c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/hystrix/UserInfoHystrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/UserInfoServiceFeign.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/META-INF/maven/com.william.springcloud/common-api/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/META-INF/maven/com.william.springcloud/common-api/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-01/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-01/target/classes/META-INF/maven/com.william.springcloud/eureka-server-01/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-01/target/classes/META-INF/maven/com.william.springcloud/eureka-server-01/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/META-INF/maven/com.william.springcloud/eureka-server-02/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/META-INF/maven/com.william.springcloud/eureka-server-02/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/maven/com.william.springcloud/eureka-server-01/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server/target/classes/META-INF/maven/com.william.springcloud/eureka-server-01/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/META-INF/maven/com.william.springcloud/service-consumer-feign/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/META-INF/maven/com.william.springcloud/service-consumer-feign/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/EurekaFeignApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/test-classes/com/william/springcloud/EurekaFeignAppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/classes/META-INF/maven/com.william.springcloud/service-consumer-hystrix-dashboard/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/classes/META-INF/maven/com.william.springcloud/service-consumer-hystrix-dashboard/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/META-INF/maven/com.william.springcloud/service-consumer-ribbon/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/META-INF/maven/com.william.springcloud/service-consumer-ribbon/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer/target/classes/META-INF/maven/com.william.springcloud/eureka-consumer/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer/target/classes/META-INF/maven/com.william.springcloud/eureka-consumer/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/META-INF/maven/com.william.springcloud/service-provider-02/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/META-INF/maven/com.william.springcloud/service-provider-02/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-02/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-02/target/classes/META-INF/maven/com.william.springcloud/service-provider-01/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-02/target/classes/META-INF/maven/com.william.springcloud/service-provider-01/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/META-INF/maven/com.william.springcloud/service-provider-hystrix/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/META-INF/maven/com.william.springcloud/service-provider-hystrix/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-zuul-gateway/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-zuul-gateway/target/classes/META-INF/maven/com.william.springcloud/service-zuul-gateway/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-zuul-gateway/target/classes/META-INF/maven/com.william.springcloud/service-zuul-gateway/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/service-zuul-gateway/target/classes/application.yml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eureka-server-03/src/main/resource/application.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceFallbackFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceFallbackFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceFallbackFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-01/eureka-server-01 (1).iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-02/eureka-server-02.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server-02/target/test-classes/com/william/springcloud/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server/eureka-server-01 (2).iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/hystrix/UserInfoHystrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/UserInfoServiceFeign.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/hystrix/UserInfoHystrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/service/UserInfoServiceFeign.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/service-provider-02.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/com/william/springcloud/UserServiceEurekaClient01.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/com/william/springcloud/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-01/target/test-classes/com/william/springcloud/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/application.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/CommonApiApp.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/CommonApiApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/entity/UserInfo.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/entity/UserInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoService.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceFallbackFactory$1.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceFallbackFactory$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceFallbackFactory.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceFallbackFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceImpl.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserInfoServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserService.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserServiceImpl.class" afterPath="$PROJECT_DIR$/common-api/target/classes/com/william/springcloud/service/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/test-classes/com/william/springcloud/CommonApiAppTest.class" afterPath="$PROJECT_DIR$/common-api/target/test-classes/com/william/springcloud/CommonApiAppTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/target/test-classes/com/william/springcloud/Test.class" afterPath="$PROJECT_DIR$/common-api/target/test-classes/com/william/springcloud/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/target/classes/com/william/springcloud/EurekaServer01.class" afterPath="$PROJECT_DIR$/eureka-server-01/target/classes/com/william/springcloud/EurekaServer01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/target/test-classes/com/william/springcloud/AppTest.class" afterPath="$PROJECT_DIR$/eureka-server-01/target/test-classes/com/william/springcloud/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/com/william/springcloud/EurekaServer02.class" afterPath="$PROJECT_DIR$/eureka-server-02/target/classes/com/william/springcloud/EurekaServer02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/target/test-classes/com/william/springcloud/AppTest.class" afterPath="$PROJECT_DIR$/eureka-server-02/target/test-classes/com/william/springcloud/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/william/springcloud/EurekaServer.class" afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/william/springcloud/EurekaServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/target/test-classes/com/william/springcloud/EurekaServerTest.class" afterPath="$PROJECT_DIR$/eureka-server/target/test-classes/com/william/springcloud/EurekaServerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/UserServiceFeignApp.class" afterPath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/UserServiceFeignApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/controller/UserInfoController.class" afterPath="$PROJECT_DIR$/service-consumer-feign/target/classes/com/william/springcloud/controller/UserInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/classes/com/william/springcloud/ConsumerHystrixDashboardApp.class" afterPath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/classes/com/william/springcloud/ConsumerHystrixDashboardApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/test-classes/com/william/springcloud/ConsumerHystrixDashboardAppTest.class" afterPath="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/test-classes/com/william/springcloud/ConsumerHystrixDashboardAppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/EurekaRibbonApp.class" afterPath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/EurekaRibbonApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/config/ConfigBean.class" afterPath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/config/ConfigBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/config/MySelfLoadBalanceRule.class" afterPath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/config/MySelfLoadBalanceRule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/controller/UserInfoController.class" afterPath="$PROJECT_DIR$/service-consumer-ribbon/target/classes/com/william/springcloud/controller/UserInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-ribbon/target/test-classes/com/william/springcloud/EurekaRibbonAppTest.class" afterPath="$PROJECT_DIR$/service-consumer-ribbon/target/test-classes/com/william/springcloud/EurekaRibbonAppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/UserServiceConsumerApp.class" afterPath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/UserServiceConsumerApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/config/ConfigBean.class" afterPath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/config/ConfigBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/controller/UserInfoController.class" afterPath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/controller/UserInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/entity/UserInfo.class" afterPath="$PROJECT_DIR$/service-consumer/target/classes/com/william/springcloud/entity/UserInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer/target/test-classes/com/william/springcloud/UserServiceConsumerAppTest.class" afterPath="$PROJECT_DIR$/service-consumer/target/test-classes/com/william/springcloud/UserServiceConsumerAppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/com/william/springcloud/UserServiceEurekaClient01.class" afterPath="$PROJECT_DIR$/service-provider-01/target/classes/com/william/springcloud/UserServiceEurekaClient01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/com/william/springcloud/controller/UserController.class" afterPath="$PROJECT_DIR$/service-provider-01/target/classes/com/william/springcloud/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/target/test-classes/com/william/springcloud/AppTest.class" afterPath="$PROJECT_DIR$/service-provider-01/target/test-classes/com/william/springcloud/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-02/target/classes/com/william/springcloud/UserServiceEurekaClient.class" afterPath="$PROJECT_DIR$/service-provider-02/target/classes/com/william/springcloud/UserServiceEurekaClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-02/target/classes/com/william/springcloud/controller/UserController.class" afterPath="$PROJECT_DIR$/service-provider-02/target/classes/com/william/springcloud/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-02/target/test-classes/com/william/springcloud/UserServiceEurekaClientTest.class" afterPath="$PROJECT_DIR$/service-provider-02/target/test-classes/com/william/springcloud/UserServiceEurekaClientTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/ProviderHystrixApp.class" afterPath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/ProviderHystrixApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/controller/UserInfoController.class" afterPath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/controller/UserInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/service/UserInfoService.class" afterPath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/service/UserInfoService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/service/UserInfoServiceImpl.class" afterPath="$PROJECT_DIR$/service-provider-hystrix/target/classes/com/william/springcloud/service/UserInfoServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/test-classes/com/william/springcloud/ProviderHystrixAppTest.class" afterPath="$PROJECT_DIR$/service-provider-hystrix/target/test-classes/com/william/springcloud/ProviderHystrixAppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-zuul-gateway/target/classes/com/william/springcloud/MyZuulApp.class" afterPath="$PROJECT_DIR$/service-zuul-gateway/target/classes/com/william/springcloud/MyZuulApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-zuul-gateway/target/test-classes/com/william/springcloud/MyZuulAppTest.class" afterPath="$PROJECT_DIR$/service-zuul-gateway/target/test-classes/com/william/springcloud/MyZuulAppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceFallbackFactory.java" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceFallbackFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer01.java" afterPath="$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer01.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/src/main/resource/application.yml" afterPath="$PROJECT_DIR$/eureka-server-01/src/main/resource/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-server-01/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/src/main/resource/application.yml" afterPath="$PROJECT_DIR$/eureka-server-02/src/main/resource/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-server-02/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/pom.xml" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/entity/UserInfo.java" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/entity/UserInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoService.java" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/.classpath" afterPath="$PROJECT_DIR$/eureka-server-01/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/.project" afterPath="$PROJECT_DIR$/eureka-server-01/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/eureka-server-01/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-01/pom.xml" afterPath="$PROJECT_DIR$/eureka-server-01/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/.project" afterPath="$PROJECT_DIR$/eureka-server-02/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/eureka-server-02/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server-02/pom.xml" afterPath="$PROJECT_DIR$/eureka-server-02/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/pom.xml" afterPath="$PROJECT_DIR$/service-consumer-feign/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/service-consumer-feign.iml" afterPath="$PROJECT_DIR$/service-consumer-feign/service-consumer-feign.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java" afterPath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/controller/UserInfoController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/src/main/resource/application.yml" afterPath="$PROJECT_DIR$/service-consumer-feign/src/main/resource/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-consumer-feign/target/classes/application.yml" afterPath="$PROJECT_DIR$/service-consumer-feign/target/classes/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/pom.xml" afterPath="$PROJECT_DIR$/service-provider-01/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-provider-01/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/target/classes/application.yml" afterPath="$PROJECT_DIR$/service-provider-01/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-02/pom.xml" afterPath="$PROJECT_DIR$/service-provider-02/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-02/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-provider-02/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java" afterPath="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java" afterPath="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-02/target/classes/application.yml" afterPath="$PROJECT_DIR$/service-provider-02/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/controller/UserInfoController.java" afterPath="$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/controller/UserInfoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/src/main/resource/application.yml" afterPath="$PROJECT_DIR$/service-provider-hystrix/src/main/resource/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-provider-hystrix/target/classes/application.yml" afterPath="$PROJECT_DIR$/service-provider-hystrix/target/classes/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/EurekaFeignApp.java" afterPath="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-consumer-feign/src/test/java/com/william/springcloud/EurekaFeignAppTest.java" afterPath="$PROJECT_DIR$/service-consumer-feign/src/test/java/com/william/springcloud/UserServiceFeignAppTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer01.java" afterPath="$PROJECT_DIR$/eureka-server-02/src/main/java/com/william/springcloud/EurekaServer01.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-01/src/main/resource/application.yml" afterPath="$PROJECT_DIR$/eureka-server-02/src/main/resource/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-01/src/test/java/com/william/springcloud/AppTest.java" afterPath="$PROJECT_DIR$/eureka-server-03/src/test/java/com/william/springcloud/AppTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-01/target/classes/com/william/springcloud/EurekaServer01.class" afterPath="$PROJECT_DIR$/eureka-server-02/target/classes/com/william/springcloud/EurekaServer01.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-01/target/test-classes/com/william/springcloud/AppTest.class" afterPath="$PROJECT_DIR$/eureka-server-03/target/test-classes/com/william/springcloud/AppTest.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-02/src/main/java/com/william/springcloud/EurekaServer02.java" afterPath="$PROJECT_DIR$/eureka-server-03/src/main/java/com/william/springcloud/EurekaServer02.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server-02/target/classes/com/william/springcloud/EurekaServer02.class" afterPath="$PROJECT_DIR$/eureka-server-03/target/classes/com/william/springcloud/EurekaServer02.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/.classpath" afterPath="$PROJECT_DIR$/eureka-server-03/.classpath" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/.project" afterPath="$PROJECT_DIR$/eureka-server-03/.project" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.m2e.core.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/.settings/org.springframework.ide.eclipse.prefs" afterPath="$PROJECT_DIR$/eureka-server-03/.settings/org.springframework.ide.eclipse.prefs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/pom.xml" afterPath="$PROJECT_DIR$/eureka-server-03/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/william/springcloud/EurekaServer.java" afterPath="$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-server-01/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/william/springcloud/EurekaServerTest.java" afterPath="$PROJECT_DIR$/eureka-server-01/src/test/java/com/william/springcloud/EurekaServerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/eureka-server-01/target/classes/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/william/springcloud/EurekaServer.class" afterPath="$PROJECT_DIR$/eureka-server-01/target/classes/com/william/springcloud/EurekaServer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka-server/target/test-classes/com/william/springcloud/EurekaServerTest.class" afterPath="$PROJECT_DIR$/eureka-server-01/target/test-classes/com/william/springcloud/EurekaServerTest.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service-provider-02/service-provider-01.iml" afterPath="$PROJECT_DIR$/service-provider-01/service-provider-01.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/service-consumer-hystrix-dashboard/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server-02/target/" />
@@ -126,6 +94,7 @@
     <ignored path="$PROJECT_DIR$/common-api/target/" />
     <ignored path="$PROJECT_DIR$/service-provider-02/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-03/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,38 +104,68 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserServiceEurekaClient01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+              <folding>
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoServiceHystrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/hystrix/UserInfoServiceHystrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/controller/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-61">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoServiceFeign.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/UserInfoServiceFeign.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server-03/src/main/resource/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer-ribbon/src/main/java/com/william/springcloud/controller/UserInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="250">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -175,22 +174,9 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="-50">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoHystrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/hystrix/UserInfoHystrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -198,48 +184,18 @@
       <file leaf-file-name="UserServiceFeignApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/resource/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceEurekaClient01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceEurekaClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-provider-02/src/main/java/com/william/springcloud/UserServiceEurekaClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="223">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -258,6 +214,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fast</find>
+      <find>eureka-server</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -274,7 +231,6 @@
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/EurekaFeignApp.java" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-02/src/main/resource/application.yml" />
-        <option value="$PROJECT_DIR$/service-provider-01/pom.xml" />
         <option value="$PROJECT_DIR$/service-provider-02/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer01.java" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
@@ -284,14 +240,37 @@
         <option value="$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/hystrix/UserInfoHystrix.java" />
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java" />
         <option value="$PROJECT_DIR$/service-provider-01/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-provider-02/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/controller/UserInfoController.java" />
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/hystrix/UserInfoHystrixFeign.java" />
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/UserInfoServiceFeign.java" />
+        <option value="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserService.java" />
+        <option value="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/model/User.java" />
+        <option value="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/service-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/entity/User.java" />
+        <option value="$PROJECT_DIR$/service-provider-01/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-01/.project" />
+        <option value="$PROJECT_DIR$/eureka-server-02/.project" />
+        <option value="$PROJECT_DIR$/eureka-server-03/.project" />
+        <option value="$PROJECT_DIR$/eureka-server-02/.settings/org.eclipse.jdt.core.prefs" />
+        <option value="$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.jdt.core.prefs" />
+        <option value="$PROJECT_DIR$/eureka-server-03/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-02/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-01/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-01/eureka-server.iml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/eureka-server-01/.settings/org.eclipse.jdt.core.prefs" />
+        <option value="$PROJECT_DIR$/eureka-server-03/src/main/resource/application.yml" />
         <option value="$PROJECT_DIR$/service-consumer-feign/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java" />
+        <option value="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java" />
+        <option value="$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/hystrix/UserInfoServiceHystrix.java" />
       </list>
     </option>
   </component>
@@ -315,12 +294,61 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="service-consumer-feign" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="service-consumer-feign" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="common-api" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="common-api" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -339,9 +367,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -364,237 +391,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-provider-02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
+              <option name="myItemId" value="service-zuul-gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,124 +494,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service-provider-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-ribbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-ribbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-ribbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-ribbon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-ribbon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -956,208 +635,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hystrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service-consumer-feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-provider-02/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-server-03/pom.xml" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="service-provider-01&#9;FILE&#9;file://D:/myspace/spring-cloud-learning/service-provider-02/service-provider-01.iml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.william.springcloud.entity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1171,51 +671,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="EurekaServer01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.william.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.william.springcloud.EurekaServer01" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="eureka-server-01 (1)" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserServiceEurekaClient01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.william.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.william.springcloud.UserServiceEurekaClient01" />
-      <module name="service-provider-02" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserServiceEurekaClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.william.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.william.springcloud.UserServiceEurekaClient" />
-      <module name="service-provider-01" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.UserServiceEurekaClient01">
     <configuration default="false" name="ProviderHystrixApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1237,6 +693,42 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.william.springcloud.UserServiceFeignApp" />
       <module name="service-consumer-feign" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.william.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.william.springcloud.EurekaServer" />
+      <module name="eureka-server-01" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EurekaServer02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.william.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.william.springcloud.EurekaServer02" />
+      <module name="eureka-server-03" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceEurekaClient01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.william.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.william.springcloud.UserServiceEurekaClient01" />
+      <module name="service-provider-01" />
       <envs />
       <method />
     </configuration>
@@ -1477,6 +969,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1562,6 +1055,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1605,6 +1120,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1621,19 +1142,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.EurekaServer01" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.UserServiceEurekaClient01" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.UserServiceEurekaClient" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ProviderHystrixApp" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.UserServiceFeignApp" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ProviderHystrixApp" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.UserServiceFeignApp" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaServer" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServer02" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.UserServiceEurekaClient01" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserServiceFeignApp" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ProviderHystrixApp" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.UserServiceEurekaClient" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.UserServiceEurekaClient01" />
-        <item index="4" class="java.lang.String" itemvalue="Application.EurekaServer01" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserServiceEurekaClient01" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.UserServiceFeignApp" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaServer02" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServer" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.ProviderHystrixApp" />
       </list>
     </recent_temporary>
   </component>
@@ -1650,50 +1171,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567578571620</updated>
-      <workItem from="1567578576569" duration="27469000" />
+      <workItem from="1567578576569" duration="33235000" />
+      <workItem from="1567741602328" duration="1426000" />
+      <workItem from="1567749203226" duration="6255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27469000" />
+    <option name="totallyTimeSpent" value="40916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13624679" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24162371" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36473754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3001346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23553163" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4858681" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2332905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51278603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31628534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49259758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23969072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1711,8 +1234,14 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/hystrix/UserInfoServiceHystrix.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1721,55 +1250,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server-02/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/ProviderHystrixApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="200">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider-02/service-provider-02.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="67" lean-forward="false" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-02/src/main/resource/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/eureka-server-01 (2).iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-02/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-01/service-provider-02.iml">
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1777,7 +1288,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-01/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/eureka-server-02.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/.settings/org.eclipse.m2e.core.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/.settings/org.springframework.ide.eclipse.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/eureka-server-01 (1).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/eureka-server.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/eureka-server-03.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/.settings/org.springframework.ide.eclipse.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.m2e.core.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider-01/service-provider-01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
@@ -1785,33 +1413,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="125">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-01/src/main/resource/application.yml">
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer01.java">
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/entity/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/william/springcloud/EurekaServer.java">
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/CommonApiApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-provider-01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/eureka-server-01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/.settings/org.eclipse.jdt.core.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/.settings/org.eclipse.jdt.core.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/.settings/org.eclipse.jdt.core.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-01/src/main/java/com/william/springcloud/EurekaServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
@@ -1819,296 +1550,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/src/main/java/com/william/springcloud/EurekaServer02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="250">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/ProviderHystrixApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeDoOnEach.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/schedulers/ScheduledAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/strategy/concurrency/HystrixContexSchedulerAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OperatorSubscribeOn.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/Observable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1603" column="0" lean-forward="false" selection-start-line="1603" selection-start-column="0" selection-end-line="1603" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeLift.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/internal/operators/OnSubscribeDefer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/command/AbstractHystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/command/MethodExecutionAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="82" column="46" lean-forward="true" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/service/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-hystrix/src/main/java/com/william/springcloud/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="46" column="49" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="49" />
-          <folding>
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="818" column="0" lean-forward="false" selection-start-line="818" selection-start-column="0" selection-end-line="818" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-hystrix/src/main/resource/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="122" column="49" lean-forward="true" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-02/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/impl/UserInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/src/main/java/com/william/springcloud/EurekaServer01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-02/src/main/resource/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-03/src/main/resource/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/controller/UserInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer-ribbon/src/main/java/com/william/springcloud/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="-61">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="-50">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/resource/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="223">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java">
+    <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-provider-02/src/main/java/com/william/springcloud/UserServiceEurekaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/hystrix/UserInfoHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="42" column="43" lean-forward="false" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/UserServiceFeignApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/java/com/william/springcloud/service/UserInfoServiceFeign.java">
+    <entry file="file://$PROJECT_DIR$/service-provider-01/src/main/java/com/william/springcloud/UserServiceEurekaClient01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="175">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer-feign/src/main/resource/application.yml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="-2677">
+          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-api/src/main/java/com/william/springcloud/hystrix/UserInfoServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
       </provider>

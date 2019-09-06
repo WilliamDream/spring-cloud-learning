@@ -1,25 +1,27 @@
 package com.william.springcloud.service;
 
-import java.util.List;
-
+import com.william.springcloud.entity.UserInfo;
+import com.william.springcloud.hystrix.UserInfoServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
-import com.william.springcloud.entity.UserInfo;
+import java.util.Collection;
 
 
 /**
- * 
- * 一个实现FallbackFactory接口的类
+ * @FeignClient注解
+ * value = 服务提供方名
+ * fallbackFactory = 一个熔断类
  *
  */
-@FeignClient(value = "UserInfo-Service",fallbackFactory=UserInfoServiceFallbackFactory.class)
+@FeignClient(value = "UserInfo-Service",fallback = UserInfoServiceHystrix.class)
 public interface UserInfoService {
 
-	@GetMapping(value = "/user/list")
-	public List<String> list();
+	@GetMapping(value = "/user/getall")
+	Collection<UserInfo> getAll();
 	
 	@PostMapping(value = "/user/add")
-	public boolean add(UserInfo userInfo);
+	boolean add(@RequestBody UserInfo userInfo);
 }

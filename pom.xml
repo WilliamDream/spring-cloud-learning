@@ -6,9 +6,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>eureka-server</module>
   	<module>eureka-server-01</module>
   	<module>eureka-server-02</module>
+  	<module>eureka-server-03</module>
   	<module>service-provider-01</module>
   	<module>service-provider-02</module>
   	<module>service-consumer</module>

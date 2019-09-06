@@ -4,7 +4,7 @@ server:
 spring:
   application:
     name: Service-Consumer-Feign
-    
+
 eureka:
 #  instance:
 #    hostname: localhost
@@ -24,3 +24,9 @@ info:
   app.name: ServiceConsumerFeign
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
+
+feign:
+  hystrix:
+    enabled: true
+
+

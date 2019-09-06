@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.Collection;
 import java.util.Collections;
 
-@Component
+@Component		//不要忘记该注解，否则找不到
 public class UserInfoServiceHystrix implements UserInfoService{
 
 	public Collection<UserInfo> getAll() {

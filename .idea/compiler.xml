@@ -24,20 +24,20 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="common-api" target="1.8" />
-      <module name="eureka-consumer" target="1.8" />
+      <module name="common-api" target="1.5" />
+      <module name="eureka-consumer" target="1.5" />
       <module name="eureka-server" target="1.8" />
-      <module name="eureka-server-01" target="1.8" />
-      <module name="eureka-server-02" target="1.8" />
-      <module name="eureka-server-03" target="1.8" />
-      <module name="service-consumer-feign" target="1.8" />
-      <module name="service-consumer-hystrix-dashboard" target="1.8" />
-      <module name="service-consumer-ribbon" target="1.8" />
-      <module name="service-provider-01" target="1.8" />
-      <module name="service-provider-02" target="1.8" />
-      <module name="service-provider-hystrix" target="1.8" />
-      <module name="service-zuul-gateway" target="1.8" />
-      <module name="spring-cloud-learning" target="1.8" />
+      <module name="eureka-server-01" target="1.5" />
+      <module name="eureka-server-02" target="1.5" />
+      <module name="eureka-server-03" target="1.5" />
+      <module name="service-consumer-feign" target="1.5" />
+      <module name="service-consumer-hystrix-dashboard" target="1.5" />
+      <module name="service-consumer-ribbon" target="1.5" />
+      <module name="service-provider-01" target="1.5" />
+      <module name="service-provider-02" target="1.5" />
+      <module name="service-provider-hystrix" target="1.5" />
+      <module name="service-zuul-gateway" target="1.5" />
+      <module name="spring-cloud-learning" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

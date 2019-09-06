@@ -8,9 +8,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.william.springcloud</groupId>
-  <artifactId>eureka-consumer</artifactId>
+  <artifactId>service-consumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>eureka-consumer</name>
+  <name>service-consumer</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -25,6 +25,7 @@ info:
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
 
+# 开启hystrix服务熔断
 feign:
   hystrix:
     enabled: true

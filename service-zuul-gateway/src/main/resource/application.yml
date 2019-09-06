@@ -11,13 +11,34 @@ zuul:
   prefix: /springcloud
   # 忽略掉微服务名，采用别名访问
   # 如果想忽略掉所有 ignoredServices: "*"
-  ignoredServices: userinfo-service
+  ignoredServices: UserInfo-Service,Service-Provider-Hystrix
   routes:
-    # 服务名称
-    userservice.serviceid: userinfo-service
-    # 服务别名
-    userservice.path: /userapp/**
-    
+    ## 这里随意写，一般写要路由到的服务明
+    userservice:
+      # 服务名称
+      serviceid: UserInfo-Service
+      # 服务别名
+      # /* 表示只匹配一个层级，/**表示匹配所以
+      path: /userapp/**
+
+
+## 方式二
+zuul:
+  routes:
+    userservice:
+      path: /user/**
+      serviceId: UserInfo-Service
+
+## 方式三
+zuul:
+  routes:
+    userservice:
+      path: /user/**
+      url: http:localhost:
+
+
+
+
 eureka:
 #  instance:
 #    instance-id: service-zuul-gateway   #服务名#
@@ -28,10 +49,13 @@ eureka:
     service-url:
       defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/
       
-# 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
+project:
+  artifactId: service-zuul-gateway
+  version: 1.0.1
+# 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info
 info:
   app.name: service-zuul-gateway
-  build.artifactId: $project.artifactId$      
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
   
  

@@ -11,7 +11,8 @@
     <file url="file://$PROJECT_DIR$/service-consumer-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-provider-02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-provider-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-provider-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/user-service-provider" charset="UTF-8" />
   </component>
 </project>

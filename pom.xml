@@ -6,18 +6,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>eureka-server-01</module>
-  	<module>eureka-server-02</module>
-  	<module>eureka-server-03</module>
-  	<module>service-provider-01</module>
-  	<module>service-provider-02</module>
-  	<module>service-consumer</module>
-  	<module>service-consumer-ribbon</module>
-    <module>service-consumer-feign</module>
-    <module>service-provider-hystrix</module>
-    <module>common-api</module>
-    <module>service-consumer-hystrix-dashboard</module>
-    <module>service-zuul-gateway</module>
+	  <module>common-api</module>
+	  <module>eureka-server-01</module>
+  	  <module>eureka-server-02</module>
+  	  <module>eureka-server-03</module>
+  	  <module>service-provider-user</module>
+	  <module>service-consumer</module>
+  	  <module>service-consumer-ribbon</module>
+      <module>service-consumer-feign</module>
+	  <module>service-provider-hystrix</module>
+      <module>service-consumer-hystrix-dashboard</module>
+      <module>service-zuul-gateway</module>
+	  <module>service-provider-order</module>
   </modules>
   
   <dependencyManagement>

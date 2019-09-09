@@ -10,7 +10,6 @@
         <module name="eureka-consumer" />
         <module name="eureka-server" />
         <module name="eureka-server-01" />
-        <module name="eureka-server-01 (1)" />
         <module name="eureka-server-01 (2)" />
         <module name="eureka-server-02" />
         <module name="eureka-server-03" />
@@ -18,9 +17,10 @@
         <module name="service-consumer-feign" />
         <module name="service-consumer-hystrix-dashboard" />
         <module name="service-consumer-ribbon" />
-        <module name="service-provider-01" />
         <module name="service-provider-02" />
         <module name="service-provider-hystrix" />
+        <module name="service-provider-order" />
+        <module name="service-provider-user" />
         <module name="service-zuul-gateway" />
       </profile>
     </annotationProcessing>
@@ -38,6 +38,8 @@
       <module name="service-provider-01" target="1.5" />
       <module name="service-provider-02" target="1.5" />
       <module name="service-provider-hystrix" target="1.5" />
+      <module name="service-provider-order" target="1.8" />
+      <module name="service-provider-user" target="1.5" />
       <module name="service-zuul-gateway" target="1.5" />
       <module name="spring-cloud-learning" target="1.5" />
       <module name="user-spring-cloud-learning" target="1.5" />

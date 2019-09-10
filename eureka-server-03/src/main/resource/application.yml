@@ -1,7 +1,7 @@
 server:
   servlet:
     application-display-name: eureak-server
-  port: 7002
+  port: 7003
 
 spring:
   application:
@@ -9,7 +9,7 @@ spring:
     
 eureka:
   instance:
-    hostname: eureka7002                     #服务注册中心实例的主机名
+    hostname: eureka7003                     #服务注册中心实例的主机名
   client:
     register-with-eureka: false             #不向服务注册中心注册eureka-server自己
     fetch-registry: false                   #是否检索eureka-server服务，只负责维护注册服务实例

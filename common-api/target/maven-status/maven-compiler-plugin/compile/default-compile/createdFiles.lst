@@ -1,4 +1,0 @@
-com\william\springcloud\service\UserInfoService.class
-com\william\springcloud\CommonApiApp.class
-com\william\springcloud\hystrix\UserInfoServiceHystrix.class
-com\william\springcloud\entity\UserInfo.class

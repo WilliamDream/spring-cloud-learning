@@ -20,6 +20,7 @@
 	  <module>service-provider-order</module>
 	  <module>config-centre-server</module>
 	  <module>config-centre-client</module>
+	  <module>config-centre-server</module>
   </modules>
   
   <dependencyManagement>

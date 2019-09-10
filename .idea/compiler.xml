@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-api" />
+        <module name="config-centre-client" />
+        <module name="config-centre-server" />
         <module name="eureka-consumer" />
         <module name="eureka-server" />
         <module name="eureka-server-01" />
@@ -26,6 +28,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="common-api" target="1.5" />
+      <module name="config-center" target="1.7" />
+      <module name="config-center-client" target="1.5" />
+      <module name="config-center-server" target="1.7" />
+      <module name="config-centre-client" target="1.8" />
+      <module name="config-centre-server" target="1.8" />
       <module name="eureka-consumer" target="1.5" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server-01" target="1.5" />

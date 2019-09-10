@@ -1,0 +1,41 @@
+
+server:
+  port: 10010
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WilliamDream/spring-cloud-learning.git
+          username: williamdream
+          password: cz512830
+          #仓库路径下的的相对搜索位置，可以配置多个
+          search-paths: config-client
+      # 配置git仓库的分支
+      label: master
+
+
+eureka:
+#  instance:
+#    instance-id: UserInfo-Service   #服务名#
+#    prefer-ip-address: true  # 访问路径可以显示ip
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/
+
+### 全局关闭 Actuator 安全
+# management.security.enabled = false
+### 细粒度的开放 Actuator Endpoints
+### sensitive 关注是敏感性，安全
+endpoints.env.sensitive = false
+endpoints.health.sensitive = false
+
+
+
+
+

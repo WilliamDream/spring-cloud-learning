@@ -1,6 +1,6 @@
 package com.william.springcloud.entity;
 
-public class UserInfo {
+public class UserInfo extends BaseEntity{
 
 	private int id;
 

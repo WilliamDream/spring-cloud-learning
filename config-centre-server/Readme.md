@@ -88,7 +88,17 @@ spring:
 #        service-id: config-server
 ```
 
-新增一个/config/getport接口
+新增一个/config/getport接口访问，http:localhost:8000/config/getconfig
+
+#### 配置修改如何主动获取最新配置
+
+##### 配置客户端config-centre-client添加依赖
+```xml
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
 
 
 

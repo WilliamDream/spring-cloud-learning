@@ -22,4 +22,7 @@ info:
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   
-  
+com:
+  william:
+    config:
+      enable: true

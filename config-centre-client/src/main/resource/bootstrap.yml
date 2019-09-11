@@ -13,6 +13,9 @@ spring:
 #        service-id: config-server
 
 
+management:
+  security:
+    enabled: false
 
 
 

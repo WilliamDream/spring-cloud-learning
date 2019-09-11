@@ -12,12 +12,10 @@ spring:
 #        enabled: true
 #        service-id: config-server
 
-#eureka:
-#  client:
-#    healthcheck:
-#      enabled: true
-#    service-url:
-#      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/
+
+management:
+  security:
+    enabled: false
 
 
 

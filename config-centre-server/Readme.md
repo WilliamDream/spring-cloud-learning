@@ -2,7 +2,7 @@
 
 ##### github上添加配置文件
 
-首先在spring-cloud-learning下创建一个文件夹**config-repository**，然后将用户服务的配置文件**application-dev.properties**上传到该目录下。
+首先在spring-cloud-learning下创建一个文件夹**config-repository**，然后将用户服务的配置文件**config-client-dev.properties**上传到该目录下。
 
 ##### 配置中心服务端config-centre-server
 
@@ -20,7 +20,7 @@
 
 `application.yml`配置如下：
 
-```
+```yaml
 server:
   port: 10010
 
@@ -53,7 +53,43 @@ eureka:
 
 ##### 测试
 
-访问http://localhost:10010/application-dev.properties
+http请求
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+
+访问http://localhost:10010/config-client-dev.properties
+
+##### 创建config-centre-client工程
+
+添加依赖
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-config-client</artifactId>
+    <version>2.0.2.RELEASE</version>
+</dependency>
+```
+添加配置bootstrap.yml，注意是bootstrap.yml，不是application.yml。
+```yaml
+spring:
+  application:
+    # 此名字要与配置中心文件xxx-profile.yaml 一致
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: test
+      uri: http://localhost:10010/
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+```
+
+新增一个/config/getport接口
+
 
 
 

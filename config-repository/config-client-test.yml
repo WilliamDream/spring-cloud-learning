@@ -6,9 +6,6 @@ spring:
     name: config-client
     
 eureka:
-#  instance:
-#    instance-id: UserInfo-Service   #服务名#
-#    prefer-ip-address: true  # 访问路径可以显示ip
   client:
     healthcheck:
       enabled: true

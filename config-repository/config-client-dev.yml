@@ -1,9 +1,9 @@
 server:
-  port: 8011
+  port: 8001
 
 spring:
   application:
-    name: UserInfo-Service
+    name: config-client
     
 eureka:
 #  instance:
@@ -17,11 +17,11 @@ eureka:
 
 
 project:
-  artifactId: userServiceProvider
+  artifactId: config-client
   version: 1.0.0
 # 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
 info:
-  app.name: UserServiceProvider
+  app.name: config-client
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
   

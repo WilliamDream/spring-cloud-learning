@@ -1,0 +1,28 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: config-client
+    
+eureka:
+#  instance:
+#    instance-id: UserInfo-Service   #服务名#
+#    prefer-ip-address: true  # 访问路径可以显示ip
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/
+
+
+project:
+  artifactId: config-client
+  version: 1.0.0
+# 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
+info:
+  app.name: config-client
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+  
+  

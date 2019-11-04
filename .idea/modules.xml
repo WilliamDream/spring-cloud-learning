@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-centre-client/config-centre-client.iml" filepath="$PROJECT_DIR$/config-centre-client/config-centre-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-centre-server/config-centre-server.iml" filepath="$PROJECT_DIR$/config-centre-server/config-centre-server.iml" />
-      <module fileurl="file://D:\myspace\spring-cloud-learning\eureka-server-01\eureka-server.iml" filepath="D:\myspace\spring-cloud-learning\eureka-server-01\eureka-server.iml" />
+      <module fileurl="file://D:/myspace/spring-cloud-learning/eureka-server-01/eureka-server.iml" filepath="D:/myspace/spring-cloud-learning/eureka-server-01/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-01/eureka-server-01.iml" filepath="$PROJECT_DIR$/eureka-server-01/eureka-server-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-02/eureka-server-02.iml" filepath="$PROJECT_DIR$/eureka-server-02/eureka-server-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-03/eureka-server-03.iml" filepath="$PROJECT_DIR$/eureka-server-03/eureka-server-03.iml" />
@@ -19,7 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-provider-user/service-provider-user.iml" filepath="$PROJECT_DIR$/service-provider-user/service-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul-gateway/service-zuul-gateway.iml" filepath="$PROJECT_DIR$/service-zuul-gateway/service-zuul-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learning.iml" filepath="$PROJECT_DIR$/spring-cloud-learning.iml" />
-      <module fileurl="file://D:\myspace\spring-cloud-learning\user-spring-cloud-learning.iml" filepath="D:\myspace\spring-cloud-learning\user-spring-cloud-learning.iml" />
+      <module fileurl="file://D:/myspace/spring-cloud-learning/user-spring-cloud-learning.iml" filepath="D:/myspace/spring-cloud-learning/user-spring-cloud-learning.iml" />
     </modules>
   </component>
 </project>

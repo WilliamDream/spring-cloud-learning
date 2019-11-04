@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Collection;
+import java.util.List;
 
 
 /**
@@ -16,11 +17,11 @@ import java.util.Collection;
  * fallbackFactory = 一个熔断类
  *
  */
-@FeignClient(value = "UserInfo-Service",fallback = UserInfoServiceHystrix.class)
+@FeignClient(value = "Service-Provider-Hystrix",fallback = UserInfoServiceHystrix.class)
 public interface UserInfoService {
 
-	@GetMapping(value = "/user/getall")
-	Collection<UserInfo> getAll();
+	@GetMapping(value = "/user/all")
+	List<String> getAll();
 	
 	@PostMapping(value = "/user/add")
 	boolean add(@RequestBody UserInfo userInfo);

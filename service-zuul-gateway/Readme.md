@@ -37,4 +37,5 @@ zuul:
     # 服务别名
     userservice.path: /userapp/**
 ```
-[由上面配置得到访问路径变为]: http://myzuul.com:9527/springcloud/userapp/user
+[由上面配置得到访问路径变为]: http://myzuul.com:9060/springcloud/userapp/user
+

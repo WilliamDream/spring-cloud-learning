@@ -7,9 +7,11 @@ public class Order extends BaseEntity{
 
     private int userId;
 
-    private double price;
-
     private String title;
+
+    private int orderId;
+
+    private int goodsId;
 
     public int getId() {
         return id;
@@ -27,19 +29,27 @@ public class Order extends BaseEntity{
         this.userId = userId;
     }
 
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public int getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
+    }
+
+    public int getGoodsId() {
+        return goodsId;
+    }
+
+    public void setGoodsId(int goodsId) {
+        this.goodsId = goodsId;
     }
 }

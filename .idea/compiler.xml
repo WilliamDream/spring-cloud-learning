@@ -20,8 +20,10 @@
         <module name="service-consumer-hystrix-dashboard" />
         <module name="service-consumer-ribbon" />
         <module name="service-provider-02" />
+        <module name="service-provider-goods" />
         <module name="service-provider-hystrix" />
         <module name="service-provider-order" />
+        <module name="service-provider-stock" />
         <module name="service-provider-user" />
         <module name="service-zuul-gateway" />
       </profile>
@@ -38,8 +40,10 @@
       <module name="service-consumer-hystrix-dashboard" target="1.8" />
       <module name="service-consumer-ribbon" target="1.8" />
       <module name="service-provider-02" target="1.8" />
+      <module name="service-provider-goods" target="1.7" />
       <module name="service-provider-hystrix" target="1.8" />
       <module name="service-provider-order" target="1.8" />
+      <module name="service-provider-stock" target="1.7" />
       <module name="service-provider-user" target="1.8" />
       <module name="service-zuul-gateway" target="1.8" />
       <module name="spring-cloud-learning" target="1.5" />

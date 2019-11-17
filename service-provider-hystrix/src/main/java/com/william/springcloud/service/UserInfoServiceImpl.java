@@ -7,9 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class UserInfoServiceImpl implements UserInfoService{
+public class UserInfoServiceImpl {
 
-	@Override
 	public List<String> getAll() {
 		List<String> list = new ArrayList<String>();
 		list.add("张晓军");
@@ -18,7 +17,6 @@ public class UserInfoServiceImpl implements UserInfoService{
 		return list;
 	}
 
-	@Override
 	public boolean add(UserInfo userInfo) {
 		return false;
 	}

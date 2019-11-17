@@ -1,5 +1,5 @@
 server:
-  port: 8021
+  port: 8014
 
 spring:
   application:
@@ -22,7 +22,7 @@ project:
 # 配置点击某个服务后跳转到相应的监控信息info页面，http://192.168.190.1:8080/actuator/info      
 info:
   app.name: OrderServiceProvider
-  build.artifactId: ${project.artifactId}
-  build.version: ${project.version}
+  build.artifactId: service-provider-order
+  build.version: 0.0.1-SNAPSHOT
   
   

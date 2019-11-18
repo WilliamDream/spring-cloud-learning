@@ -18,5 +18,6 @@
     <file url="file://$PROJECT_DIR$/service-provider-stock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-server" charset="UTF-8" />
   </component>
 </project>

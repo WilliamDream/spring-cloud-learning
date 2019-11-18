@@ -9,7 +9,7 @@ spring:
 ## 方式二
 #zuul:
 #  routes:
-#    userservice:
+#    userservice:   ## 只是给路由起个名字
 #      path: /user/**
 #      serviceId: UserInfo-Service
 

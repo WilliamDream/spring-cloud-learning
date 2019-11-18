@@ -26,6 +26,7 @@
         <module name="service-provider-stock" />
         <module name="service-provider-user" />
         <module name="service-zuul-gateway" />
+        <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -47,6 +48,7 @@
       <module name="service-provider-user" target="1.8" />
       <module name="service-zuul-gateway" target="1.8" />
       <module name="spring-cloud-learning" target="1.5" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

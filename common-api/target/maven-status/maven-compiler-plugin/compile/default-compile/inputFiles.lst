@@ -1,9 +1,12 @@
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\service\GoodService.java
+D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\service\GoodsServiceFeign.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\entity\Order.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\hystrix\GoodServiceHystrix.java
+D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\hystrix\GoodsServiceFeignHystrix.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\hystrix\OrderServiceHystrix.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\service\UserInfoService.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\entity\BaseEntity.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\entity\UserInfo.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\service\OrderService.java
+D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\entity\Goods.java
 D:\WorkSpace_Idea\spring-cloud-learning\common-api\src\main\java\com\william\springcloud\hystrix\UserInfoServiceHystrix.java

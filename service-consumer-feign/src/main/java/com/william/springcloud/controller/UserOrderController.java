@@ -21,13 +21,13 @@ public class UserOrderController implements OrderService{
 
     @Override
     @GetMapping("/getOrder/{orderId}")
-    public Order getOrderByOrderId(int orderId) {
+    public List<Order> getOrderByOrderId(int orderId) {
         return null;
     }
 
     @Override
     @GetMapping("/getGoods/{orderId}")
-    public Goods getGoodsByOrderId(int orderId) {
+    public List<Goods> getGoodsByOrderId(int orderId) {
         return null;
     }
 }

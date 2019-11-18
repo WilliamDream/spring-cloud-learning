@@ -1,5 +1,6 @@
 package com.william.springcloud.service;
 
+import com.william.springcloud.entity.Goods;
 import com.william.springcloud.entity.Order;
 
 import java.util.List;
@@ -9,15 +10,14 @@ import java.util.List;
  * @Description:
  */
 public class UserOrderService implements OrderService{
-
-
     @Override
-    public Order getUserOrderByID(int orderId) {
+    public List<Order> getOrderByOrderId(int orderId) {
         return null;
     }
 
     @Override
-    public List<Order> getUserOrderByUserId(int userId) {
+    public List<Goods> getGoodsByOrderId(int orderId) {
         return null;
     }
+
 }

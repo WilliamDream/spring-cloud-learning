@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-zuul-gateway/service-zuul-gateway.iml" filepath="$PROJECT_DIR$/service-zuul-gateway/service-zuul-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learning.iml" filepath="$PROJECT_DIR$/spring-cloud-learning.iml" />
       <module fileurl="file://D:/myspace/spring-cloud-learning/user-spring-cloud-learning.iml" filepath="D:/myspace/spring-cloud-learning/user-spring-cloud-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" />
     </modules>
   </component>
 </project>
